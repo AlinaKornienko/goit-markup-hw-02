@@ -65,9 +65,18 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
 .button.filter {
   background-color: var(--secondary-backgound);
   color: var(--title-text-color);
+}
+.button.filter:hover,
+.button.filter:focus {
+  background-color: #2196f3;
+  color: var(--primary-white-color);
 }
 
 /* section */
