@@ -12,6 +12,8 @@
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --accent-color: #2196f3;
+  --primary-white-color: #fff;
+  --secondary-backgound: #f5f4fa;
 }
 
 body {
@@ -58,6 +60,16 @@ body {
 .hero-title {
   color: #ffffff;
 }
+/* button */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.filter {
+  background-color: var(--secondary-backgound);
+  color: var(--title-text-color);
+}
+
 /* section */
 .section {
 }
