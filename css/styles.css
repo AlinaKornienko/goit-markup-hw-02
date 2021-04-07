@@ -1,13 +1,19 @@
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #e5e5e5;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
 }
 /* вторичний цвет фона #F5F4FA */
-/* цвет основного текста #212121 */
-/* вторичный текст текста #757575 */
+/* цвет основного текста #757575 */
+/* вторичный текст текста #212121 */
 /* белый #FFFFFF */
 /* черный #000000 */
 /* лого #2196F3 */
@@ -31,12 +37,26 @@ body {
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts a {
   color: #757575;
 }
 .contacts a:hover,
 .contacts a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+  color: #ffffff;
+}
+/* section */
+.section {
+}
+.section-title {
+  color: var(--title-text-color);
+}
+/* skills */
+.skills .title {
+  color: var(--title-text-color);
 }
