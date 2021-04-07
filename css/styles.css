@@ -1,9 +1,13 @@
-.nav-logo {
+.navigation {
   height: 80px;
   width: 1600px;
   background-color: #ffffff;
 }
 .logo {
+  margin: 24px 1240px 25px 215px;
+}
+.logo-footer {
+  margin: 60px 1240px 161px 215px;
 }
 .logo-first {
   font-family: Raleway;
@@ -30,9 +34,17 @@
   color: #ffffff;
 }
 .nav {
+  list-style-type: none;
+  position: absolute;
+  width: 294px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  margin: 32px 853px 32px 453px;
 }
 .nav-item {
   font-family: Roboto;
+  display: inline-block;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -64,6 +76,14 @@
 }
 .contact-info-item-link:hover {
   color: #2196f3;
+}
+.footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
+  background: #2f303a;
 }
 .hero {
   background-color: #2f303a;
