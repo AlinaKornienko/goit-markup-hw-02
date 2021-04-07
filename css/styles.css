@@ -24,3 +24,39 @@
   line-height: 31px;
   color: #ffffff;
 }
+.nav {
+}
+.nav-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.link {
+}
+.nav-link {
+  color: #212121;
+}
+.nav-link:hover {
+  color: #2196f3;
+}
+.contact-info {
+}
+.contact-info-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-info-item-link {
+  color: #757575;
+}
+.contact-info-item-link:hover {
+  color: #2196f3;
+}
