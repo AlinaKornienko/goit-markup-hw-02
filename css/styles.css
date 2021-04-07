@@ -1,6 +1,42 @@
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+/* вторичний цвет фона #F5F4FA */
+/* цвет основного текста #212121 */
+/* вторичный текст текста #757575 */
+/* белый #FFFFFF */
+/* черный #000000 */
+/* лого #2196F3 */
+/* хедер линк #757575*/
+/* фурет линк rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+
+/* logo */
 .logo-first {
+  color: #2196f3;
 }
 .logo-second-header {
+  color: #000000;
 }
 .logo-second-footer {
+  color: #ffffff;
+}
+/* site nav */
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+.contacts a {
+  color: #757575;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: #2196f3;
 }
