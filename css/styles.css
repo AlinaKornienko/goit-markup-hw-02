@@ -37,8 +37,7 @@ body {
 .site-nav a {
   color: #212121;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav .link.current {
   color: var(--accent-color);
 }
 .contacts a {
