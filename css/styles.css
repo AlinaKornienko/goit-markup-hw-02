@@ -1,3 +1,13 @@
+/* вторичний цвет фона #F5F4FA */
+/* цвет основного текста #757575 */
+/* вторичный текст текста #212121 */
+/* белый #FFFFFF */
+/* черный #000000 */
+/* лого #2196F3 */
+/* хедер линк #757575*/
+/* фурет линк rgba(255, 255, 255, 0.6) */
+/* акцент #2196F3 */
+
 :root {
   --title-text-color: #212121;
   --primary-text-color: #757575;
@@ -11,16 +21,6 @@ body {
 .list {
   list-style: none;
 }
-/* вторичний цвет фона #F5F4FA */
-/* цвет основного текста #757575 */
-/* вторичный текст текста #212121 */
-/* белый #FFFFFF */
-/* черный #000000 */
-/* лого #2196F3 */
-/* хедер линк #757575*/
-/* фурет линк rgba(255, 255, 255, 0.6) */
-/* акцент #2196F3 */
-
 /* logo */
 .logo-first {
   color: #2196f3;
@@ -46,6 +46,14 @@ body {
 .contacts a:focus {
   color: var(--accent-color);
 }
+/* footer nav */
+.address-text {
+  color: #ffffff;
+}
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* hero */
 .hero-title {
   color: #ffffff;
@@ -58,5 +66,13 @@ body {
 }
 /* skills */
 .skills .title {
+  color: var(--title-text-color);
+}
+/* team */
+.team {
+}
+.team-item {
+}
+.list-title {
   color: var(--title-text-color);
 }
