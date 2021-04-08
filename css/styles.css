@@ -28,7 +28,7 @@ body {
 /* logo */
 .logo {
   font-family: Raleway, cursive;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -56,6 +56,10 @@ body {
 }
 .contacts a {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -72,11 +76,23 @@ body {
 /* hero */
 .hero-title {
   color: #ffffff;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /* button */
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 .button.primary {
   color: var(--primary-white-color);
@@ -85,6 +101,10 @@ body {
 .button.filter {
   background-color: var(--secondary-backgound);
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 .button.filter:hover,
 .button.filter:focus {
@@ -97,10 +117,30 @@ body {
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 /* skills */
 .skills .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.necessary-skills {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.list-title-portfolio {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 /* team */
 .team {
@@ -109,4 +149,7 @@ body {
 }
 .list-title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
 }
