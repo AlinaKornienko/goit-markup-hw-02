@@ -63,6 +63,10 @@ body {
 .address a {
   color: rgba(255, 255, 255, 0.6);
 }
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
+}
 /* hero */
 .hero-title {
   color: #ffffff;
