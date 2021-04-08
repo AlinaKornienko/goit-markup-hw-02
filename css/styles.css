@@ -141,7 +141,7 @@ body {
 /* team */
 .team-about {
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 .list-title {
   color: var(--title-text-color);
