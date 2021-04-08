@@ -34,7 +34,6 @@ body {
 /* site nav */
 .site-nav a {
   color: #212121;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -81,7 +80,6 @@ body {
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -95,7 +93,6 @@ body {
 .button.filter {
   background-color: var(--secondary-backgound);
   color: var(--title-text-color);
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
